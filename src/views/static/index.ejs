@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% include ./partials/head.ejs %>
+  <title>Hughes Landscaping</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <% include ./partials/navbar.ejs %>
+
+  <!-- Photo Carousel -->
+  <section id="landing-images">
+    <div id="photo-carousel" class="carousel slide" data-ride="false">
+      <ol class="carousel-indicators">
+        <li data-target="#photo-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#photo-carousel" data-slide-to="1"></li>
+        <li data-target="#photo-carousel" data-slide-to="2"></li>
+        <li data-target="#photo-carousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/images/pic2.jpg" alt="landscaping photo">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/house-dg2_2.jpg" alt="landscaping photo">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/house-dg4_1.jpg" alt="landscaping photo">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/125426-orig_1.jpg" alt="landscaping photo">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#photo-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#photo-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Landing page text -->
+  <section class="main">
+    <h2 class="landing-heading">
+      Welcome to Hughes Landscaping
+    </h2>
+    <p class="main-text">
+      Since 1983, Hughes Landscaping has delivered thoughtful designs, quality materials and the highest standards of craftsmanship to create beautiful, functional outdoor spaces for clients across the Washington Metropolitan Area.
+    </p>
+    <p class="main-text">
+      We've worked on projects ranging from commercial to residential, refreshes to complete redesigns, landscapes to hardscapes, stone to wrought iron. We invite you to view our portfolio. We believe the work speaks for itself, but we're deeply
+      honored to have our clients speak for our work.
+    </p>
+    <p class="main-text">
+      We invite you to contact us to discuss your project.
+    </p>
+  </section>
+
+  <section>
+    <div class="row">
+
+      <!-- Testimonials -->
+      <div class="col-lg-5">
+
+        <section id="testimonials">
+
+          <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2>I love Hughes!</h2>
+                <em>Cathy - Poolsville, MD</em>
+              </div>
+              <div class="carousel-item">
+                <h2 class="testimonial-text">Hughes is so cool!</h2>
+                <em>Richard Scobel - Mainstreet Property Management</em>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+        </section>
+      </div>
+
+      <!-- Award Magazine -->
+      <div class="col-lg-3">
+        <img class="magazine-image" src="/images/2019-best-of-bethesda.jpg" alt="Magazine Image" />
+      </div>
+
+      <!-- Facebook Page -->
+      <div class="facebook col-lg-4">
+        <p class="facebook-text">
+          Want to see more? Follow us on Facebook!
+        </p>
+        <a href="#"><i class="fab fa-facebook-square fa-9x"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <% include ./partials/baseScripts.ejs %>
+</body>
+<% include ./partials/footer.ejs %>
+
+</html>

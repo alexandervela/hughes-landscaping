@@ -1,0 +1,29 @@
+{
+  "name": "hughes-landscaping",
+  "version": "1.0.0",
+  "description": "Hughes Landscaping Website Design",
+  "main": "(src/server.js)",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandervela/hughes-landscaping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandervela/hughes-landscaping/issues"
+  },
+  "homepage": "https://github.com/alexandervela/hughes-landscaping#readme",
+  "devDependencies": {
+    "jasmine": "^3.0.0",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% include ./partials/head.ejs %>
+  <title>Contact Hughes Landscaping</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <% include ./partials/navbar.ejs %>
+
+  <div class="container-fluid">
+
+    <h2 class="main-heading">Request Information</h2>
+
+    <form>
+      <div class="row">
+        <div class="col">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp" placeholder="Enter Your First Name">
+        </div>
+        <div class="col">
+          <label for="lastName">Last Name</label>
+          <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp" placeholder="Enter Your Last Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="address">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="1234 Main St">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="city">City</label>
+          <input type="text" class="form-control" id="city">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="state">State</label>
+          <select id="state" class="form-control">
+            <option selected>Choose...</option>
+            <option>Alabama</option>
+            <option>Alaska</option>
+            <option>Arizona</option>
+            <option>Arkansas</option>
+            <option>California</option>
+            <option>Colorado</option>
+            <option>Connecticut</option>
+            <option>Delaware</option>
+            <option>Florida</option>
+            <option>Georgia</option>
+            <option>Hawaii</option>
+            <option>Idaho</option>
+            <option>Illinois</option>
+            <option>Indiana</option>
+            <option>Iowa</option>
+            <option>Kansas</option>
+            <option>Kentucky</option>
+            <option>Louisiana</option>
+            <option>Maine</option>
+            <option>Maryland</option>
+            <option>Massaschusetts</option>
+            <option>Michigan</option>
+            <option>Minnesota</option>
+            <option>Mississippi</option>
+            <option>Missouri</option>
+            <option>Montana</option>
+            <option>Nebraska</option>
+            <option>Nevada</option>
+            <option>New Hampshire</option>
+            <option>New Jersey</option>
+            <option>New Mexico</option>
+            <option>New York</option>
+            <option>North Carolina</option>
+            <option>North Dakota</option>
+            <option>Ohio</option>
+            <option>Oklahoma</option>
+            <option>Oregon</option>
+            <option>Pennsylvania</option>
+            <option>Rhode Island</option>
+            <option>South Carolina</option>
+            <option>South Dakota</option>
+            <option>Tennessee</option>
+            <option>Texas</option>
+            <option>Utah</option>
+            <option>Vermont</option>
+            <option>Virginia</option>
+            <option>Washington</option>
+            <option>West Virginia</option>
+            <option>Wisconsin</option>
+            <option>Wyoming</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="zip">Zip</label>
+          <input type="text" class="form-control" id="zip">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter Email">
+      </div>
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="text" class="form-control" id="phoneNumber" placeholder="Enter Phone Number">
+      </div>
+      <fieldset>
+        <legend>
+          Area(s) of Interest
+        </legend>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check1">
+          <label class="form-check-label" for="check1">Design</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check2">
+          <label class="form-check-label" for="check2">Fencing (wood, wrought iron)</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check3">
+          <label class="form-check-label" for="check3">Irrigation</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check4">
+          <label class="form-check-label" for="check4">Maintenance (e.g. mowing, garden visits)</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check5">
+          <label class="form-check-label" for="check5">Plantings (flowers, shrubs, trees)</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check6">
+          <label class="form-check-label" for="check6">Structures (e.g. gazebos, pergolas)</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check7">
+          <label class="form-check-label" for="check7">Surfaces (e.g. walkways, steps)</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check8">
+          <label class="form-check-label" for="check8">Walls (e.g. dry stack, retaining)</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check9">
+          <label class="form-check-label" for="check9">Water Feature</label>
+        </div>
+      </fieldset>
+      <div class="form-group">
+        <label for="textArea">Project Information</label>
+        <textarea class="form-control" id="textArea" rows="6"></textarea>
+      </div>
+      <fieldset>
+        <legend>
+          How did your hear about Hughes Landscaping?
+        </legend>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="checkBox1">
+          <label class="form-check-label" for="checkBox1">I was referred to Hughes by a friend</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="checkBox2">
+          <label class="form-check-label" for="checkBox2">I saw Hughes working in my neighborhood</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="checkBox3">
+          <label class="form-check-label" for="checkBox3">I received a postcard from Hughes</label>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="checkBox4">
+          <label class="form-check-label" for="checkBox4">I found Hughes by searching online</label>
+        </div>
+      </fieldset>
+      <button type="submit" class="form-button btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+
+  <% include ./partials/baseScripts.ejs %>
+</body>
+<footer>
+  <% include ./partials/footer.ejs %>
+</footer>
+
+</html>
