@@ -14,6 +14,9 @@ module.exports = {
   maintenance(req, res, next){
     res.render("static/maintain", {title: "Commercial and residential landscape maintenance"});
   },
+  process(req, res, next){
+    res.render("static/our-process", {title: "Our Process"});
+  },
   team(req, res, next){
     res.render("static/our-team", {title: "Hughes Landscaping's experienced team"});
   }

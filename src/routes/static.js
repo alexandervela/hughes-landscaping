@@ -7,6 +7,7 @@ router.get("/about-us", staticController.about);
 router.get("/contact", staticController.contact);
 router.get("/design-and-build", staticController.design);
 router.get("/maintenance", staticController.maintenance);
+router.get("/our-process", staticController.process);
 router.get("/our-team", staticController.team);
 
 module.exports = router;

@@ -60,6 +60,13 @@
   padding: 2%;
 }
 
+.side-heading {
+  font-family: 'Montserrat-Black';
+  font-size: 25px;
+  margin: 20px;
+  text-align: center;
+}
+
 /* Testimonials Carousel */
 
 #testimonials {
