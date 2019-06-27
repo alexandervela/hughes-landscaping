@@ -17,6 +17,9 @@ module.exports = {
   process(req, res, next){
     res.render("static/our-process", {title: "Our Process"});
   },
+  services(req, res, next){
+    res.render("static/our-services", {title: "Our Services"});
+  },
   team(req, res, next){
     res.render("static/our-team", {title: "Hughes Landscaping's experienced team"});
   }

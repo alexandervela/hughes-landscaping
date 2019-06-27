@@ -40,11 +40,11 @@
 
           <div id="testimonial-carousel" class="carousel slide" data-ride="false">
             <div class="carousel-inner">
-              <div class="testimonial-item carousel-item active">
+              <div id="testimonial-item" class="carousel-item active">
                 <h2>I love Hughes!</h2>
                 <em>Cathy - Poolsville, MD</em>
               </div>
-              <div class="testimonial-item carousel-item">
+              <div id="testimonial-item" class="carousel-item">
                 <h2 class="testimonial-text">Hughes is so cool!</h2>
                 <em>Richard Scobel - Mainstreet Property Management</em>
               </div>
@@ -75,9 +75,11 @@
 
     </div>
   </section>
-
+  <!-- Scripts -->
   <% include ./partials/baseScripts.ejs %>
+
+  <!-- Footer -->
+  <% include ./partials/footer.ejs %>
 </body>
-<% include ./partials/footer.ejs %>
 
 </html>
